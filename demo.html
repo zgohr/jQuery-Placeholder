@@ -1,37 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-    <script src="jquery.placeholder.js"></script>
-    <title>jQuery-Placeholder</title>
-    <style>
-    body {font-family: arial, sans-serif;}
-        input, textarea {padding:4px; width:225px; font-family: arial, sans-serif; font-size: 12px;}
-        textarea {width: 425px; height: 200px;}
-        .placeholder {color: #aaa;}
-    </style>
+  <meta charset="utf-8">
+  <title>jQuery Placeholder Example</title>
 </head>
 <body>
-    <h1>jQuery-Placeholder</h1>
-    <p>This plugin supports a fallback for browsers that do not yet support the HTML5 placeholder attribute.</p>
-    <h2>Demo form</h2>
-    <form action="">
-        <p>
-            <input type="text" placeholder="username" name="username">
-        </p>
-        <p>
-            <input type="password" placeholder="password" name="password">
-        </p>
-        <p>
-            <textarea placeholder="A textarea placeholder" name="text"></textarea>
-        </p>
-        <p>
-            <button type="submit">Go</button>
-        </p>
-    </form>
-<script>
-    $('input[placeholder], textarea[placeholder]').placeholder();
-</script>
+  <h1>jQuery Placeholder Example</h1>
+  <p>This jQuery plugin provides a fallback for browsers that do not support the HTML5 placeholder attribute.</p>
+  <h2>Example form</h2>
+  <form action="">
+    <p><input type="text" placeholder="username" name="username"></p>
+    <p><input type="password" placeholder="password" name="password"></p>
+    <p><textarea placeholder="A textarea placeholder" name="text"></textarea></p>
+    <p><button type="submit">Go</button></p>
+  </form>
+  <script src="jquery-1.6.4.min.js"></script>
+  <script src="jquery.placeholder.js"></script>
+  <script>
+    //$('*[placeholder]').placeholder();
+  </script>
 </body>
 </html>
